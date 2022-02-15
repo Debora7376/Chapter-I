@@ -1,5 +1,13 @@
 import { useState } from 'react';
 
+// imutabilidade
+
+// usuarios = ['diego3g', 'diegosf', 'danileao']
+
+// usuarios.push('rafacamarda')
+
+// novoUsuario = [...usuarios, 'rafacamarda']
+
 export function Counter() {
   const [counter, setCounter] = useState(0);
 
